@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:theme="@style/Theme.AppCompat.NoActionBar">
+
+    <ImageView
+        android:id="@+id/GameImage"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/crossroad"/>
+
+    <TextView
+        android:id="@+id/GameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_below="@+id/GameImage"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/choice1"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        style="@style/ButtonStyle"
+        android:layout_below="@id/GameText"
+        android:textColor="#FFFFFF"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/choice2"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        style="@style/ButtonStyle"
+        android:layout_below="@id/choice1"
+        android:textColor="#FFFFFF"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/choice3"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        style="@style/ButtonStyle"
+        android:layout_below="@id/choice2"
+        android:textColor="#FFFFFF"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/choice4"
+        android:layout_width="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        style="@style/ButtonStyle"
+        android:layout_below="@id/choice3"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>
